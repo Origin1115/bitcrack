@@ -1,0 +1,17 @@
+1.First source made by C
+-build this src code with proper Cuda version.
+ currently, we are using cuda10.1
+-or build this src code with open CL
+
+-when you build with cuda, you can get cuBitCrack.exe
+excute exe as follow;
+
+cuBitCrack.exe --keyspace 20000000000000000:3ffffffffffffffff 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so
+ or
+cuBitCrack.exe --keyspace 20000000000000000:3ffffffffffffffff 13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so -o found.txt
+
+2.Second source made by python
+
+read the requirements.txt
+
+when get success, will record the key on the plutus.txt file
